@@ -1,0 +1,41 @@
+.gd-black {
+  color: black;
+}
+
+.gd-white {
+  color: white;
+}
+
+.gd-blue {
+  color: #0d299c;
+}
+
+.gd-red {
+  color: #ed4731;
+}
+
+.gd-yellow {
+  color: #fee034;
+}
+
+.gd-bg-black {
+  background-color: black;
+}
+
+.gd-bg-white {
+  background-color: white;
+}
+
+.gd-bg-blue {
+  background-color: #0d299c;
+}
+
+.gd-bg-red {
+  background-color: #ed4731;
+}
+
+.gd-bg-yellow {
+  background-color: #fee034;
+}
+
+/*# sourceMappingURL=gundam.css.map */

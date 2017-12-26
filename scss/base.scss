@@ -1,0 +1,11 @@
+@each $color, $hsl in $colors {
+  .gd-#{$color} {
+    color: #{$hsl};
+  }
+}
+
+@each $color, $hsl in $colors {
+  .gd-bg-#{$color} {
+    background-color: #{$hsl};
+  }
+}
