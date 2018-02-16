@@ -2,17 +2,64 @@
 <html>
   <head>
     <title>Simple Doc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/gundam.css">
   </head>
   <body>
     <h1>Simple Docs</h1>
-    <h2>Colors</h2>
-    <hr />
-    <div class="color-chip gd-bg-white"></div>
-    <div class="color-chip gd-bg-black"></div>
-    <div class="color-chip gd-bg-red"></div>
-    <div class="color-chip gd-bg-blue"></div>
-    <div class="color-chip gd-bg-yellow"></div>
+    <section>
+      <h2>Colors</h2>
+      <hr />
+      <div class="color-chip gd-bg-white"></div>
+      <div class="color-chip gd-bg-black"></div>
+      <div class="color-chip gd-bg-red"></div>
+      <div class="color-chip gd-bg-blue"></div>
+      <div class="color-chip gd-bg-yellow"></div>
+    </section>
+    <section>
+      <h2>Loyout</h2>
+      <hr />
+      <div class="gd-row">
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+        <div class="example-col gd-col-1">1</div> 
+      </div>
+      <div class="gd-row">
+        <div class="example-col gd-col-2">2</div> 
+        <div class="example-col gd-col-2">2</div> 
+        <div class="example-col gd-col-2">2</div> 
+        <div class="example-col gd-col-2">2</div> 
+        <div class="example-col gd-col-2">2</div> 
+        <div class="example-col gd-col-2">2</div> 
+      </div>
+      <div class="gd-row">
+        <div class="example-col gd-col-3">3</div> 
+        <div class="example-col gd-col-3">3</div> 
+        <div class="example-col gd-col-3">3</div> 
+        <div class="example-col gd-col-3">3</div> 
+      </div>
+      <div class="gd-row">
+        <div class="example-col gd-col-4">4</div> 
+        <div class="example-col gd-col-4">4</div> 
+        <div class="example-col gd-col-4">4</div> 
+      </div>
+      <div class="gd-row">
+        <div class="example-col gd-col-6">6</div> 
+        <div class="example-col gd-col-6">6</div> 
+      </div>
+      <div class="gd-row">
+        <div class="example-col gd-col-12">12</div> 
+      </div>
+    </section>
   </body>
 </html>
 
@@ -23,5 +70,15 @@
     float: left;
     margin: 0 3px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  }
+  .example-col {
+    height: 50px;
+    border: 1px solid #EEE;
+    background-color: #BBB;
+  }
+  section {
+    position: relative;
+    float: left;
+    width: 100%;
   }
 </style>

@@ -5,3 +5,9 @@ $colors: (
   'red':   hsl(7, 84%, 56%),
   'yellow': hsl(51, 99%, 60%)
 );
+
+$device_breakpoints: (
+  'desktop': (max: null, min: '1080px'),
+  'tablet': (max: '839px', min: '480px'),
+  'phone': (max: '479px', min: null)
+)

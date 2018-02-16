@@ -1,0 +1,12 @@
+@mixin breakpoint($device) {
+  $device_bp: map-get($device_breakpoints, $device);
+  $max: map-get($device_bp, max);
+  $min: map-get($device_bp, min);
+  @if ($max == null) {
+    @media (min-width: $min) { @content; }
+  } @else if ($min == null) {
+    @media (max-width: $max) { @content; }
+  } @else {
+    @media (max-width: $max) and (min-width: $min) { @content; }
+  }
+} 
