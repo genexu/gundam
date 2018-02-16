@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build-all": "npm run build-normal && npm run build-minify",
-    "build-normal": "node-sass --source-map true --output-style expanded --include-path scss scss/gundam.scss css/gundam.css",
-    "build-minify": "node-sass --source-map true --output-style compressed --include-path scss scss/gundam.scss css/gundam.min.css",
+    "build-normal": "node-sass --source-map true --output-style expanded --include-path scss --include-path node_modules/normalize.css scss/gundam.scss css/gundam.css",
+    "build-minify": "node-sass --source-map true --output-style compressed --include-path scss --include-path node_modules/normalize.css scss/gundam.scss css/gundam.min.css",
     "watch": "nodemon -w scss -e scss -x \"npm run build-all\""
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/genexu/gundam#readme",
   "devDependencies": {
     "node-sass": "^4.7.2",
-    "nodemon": "^1.14.3"
+    "nodemon": "^1.14.3",
+    "normalize.css": "^8.0.0"
   }
 }
