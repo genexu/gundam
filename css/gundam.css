@@ -370,6 +370,26 @@ template {
   background-color: #fee034 !important;
 }
 
+.gd-bd-black {
+  border-color: black !important;
+}
+
+.gd-bd-white {
+  border-color: white !important;
+}
+
+.gd-bd-blue {
+  border-color: #0d299c !important;
+}
+
+.gd-bd-red {
+  border-color: #ed4731 !important;
+}
+
+.gd-bd-yellow {
+  border-color: #fee034 !important;
+}
+
 .gd-container {
   width: 100%;
   padding: 0 16px;
@@ -518,6 +538,11 @@ template {
   .gd-col-12 {
     width: 100%;
   }
+}
+
+.gd-alert {
+  border: 1px solid #EFEFEF;
+  padding: 14px;
 }
 
 .gd-btn {

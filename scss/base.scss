@@ -9,3 +9,9 @@
     background-color: #{$hsl} !important;
   }
 }
+
+@each $color, $hsl in $colors {
+  .gd-bd-#{$color} {
+    border-color: #{$hsl} !important;
+  }
+}
