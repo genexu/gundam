@@ -350,6 +350,10 @@ template {
   color: #fee034 !important;
 }
 
+.gd-green {
+  color: #215e21 !important;
+}
+
 .gd-bg-black {
   background-color: black !important;
 }
@@ -370,6 +374,10 @@ template {
   background-color: #fee034 !important;
 }
 
+.gd-bg-green {
+  background-color: #215e21 !important;
+}
+
 .gd-bd-black {
   border-color: black !important;
 }
@@ -388,6 +396,10 @@ template {
 
 .gd-bd-yellow {
   border-color: #fee034 !important;
+}
+
+.gd-bd-green {
+  border-color: #215e21 !important;
 }
 
 .gd-container {
