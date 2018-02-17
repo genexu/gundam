@@ -1,17 +1,17 @@
 @each $color, $hsl in $colors {
-  .gd-#{$color} {
+  .#{$prefix}-#{$color} {
     color: #{$hsl} !important;
   }
 }
 
 @each $color, $hsl in $colors {
-  .gd-bg-#{$color} {
+  .#{$prefix}-bg-#{$color} {
     background-color: #{$hsl} !important;
   }
 }
 
 @each $color, $hsl in $colors {
-  .gd-bd-#{$color} {
+  .#{$prefix}-bd-#{$color} {
     border-color: #{$hsl} !important;
   }
 }
