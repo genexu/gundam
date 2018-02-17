@@ -1,0 +1,9 @@
+.#{$prefix}-btn {
+  border: transparent;
+  padding: 12px;
+  background-color: #EFEFEF;
+  cursor: pointer;
+  &:focus {
+    outline:0;
+  }
+}

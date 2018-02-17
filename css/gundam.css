@@ -331,43 +331,50 @@ template {
 }
 
 .gd-black {
-  color: black;
+  color: black !important;
 }
 
 .gd-white {
-  color: white;
+  color: white !important;
 }
 
 .gd-blue {
-  color: #0d299c;
+  color: #0d299c !important;
 }
 
 .gd-red {
-  color: #ed4731;
+  color: #ed4731 !important;
 }
 
 .gd-yellow {
-  color: #fee034;
+  color: #fee034 !important;
 }
 
 .gd-bg-black {
-  background-color: black;
+  background-color: black !important;
 }
 
 .gd-bg-white {
-  background-color: white;
+  background-color: white !important;
 }
 
 .gd-bg-blue {
-  background-color: #0d299c;
+  background-color: #0d299c !important;
 }
 
 .gd-bg-red {
-  background-color: #ed4731;
+  background-color: #ed4731 !important;
 }
 
 .gd-bg-yellow {
-  background-color: #fee034;
+  background-color: #fee034 !important;
+}
+
+.gd-container {
+  width: 100%;
+  padding: 0 16px;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .gd-row {
@@ -511,6 +518,17 @@ template {
   .gd-col-12 {
     width: 100%;
   }
+}
+
+.gd-btn {
+  border: transparent;
+  padding: 12px;
+  background-color: #EFEFEF;
+  cursor: pointer;
+}
+
+.gd-btn:focus {
+  outline: 0;
 }
 
 /*# sourceMappingURL=gundam.css.map */
