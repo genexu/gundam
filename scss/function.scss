@@ -1,0 +1,16 @@
+@function scale($domain, $range) {
+  $c_values: ();
+  $domain_value: abs(nth($domain, 2) - nth($domain, 1));
+  $range_unit: (nth($range, 2) - nth($range, 1)) / $domain_value;
+  @for $index from 1 through $domain_value {
+    $c_values: append($c_values, $range_unit * $index);
+  }
+  @return $c_values;
+}
+
+@function depth_shadow($depth) {
+  $offset: nth(scale(0 24, 0 16), $depth) * 1px;
+  $blur: nth(scale(0 24, 0 24), $depth) * 1.2px;
+  $opacity: 0.28 - nth(scale(0 24, 0.08 0.28), $depth);
+  @return 0 $offset $blur rgba(0, 0, 0, $opacity);
+}
