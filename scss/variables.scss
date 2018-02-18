@@ -10,7 +10,7 @@ $colors: (
 );
 
 $device_breakpoints: (
-  'desktop': (max: null, min: '1080px'),
-  'tablet': (max: '839px', min: '480px'),
-  'phone': (max: '479px', min: null)
+  'desktop': (max: null, min: '67.5rem'),
+  'tablet': (max: '67.4rem', min: '30rem'),
+  'phone': (max: '29.9rem', min: null)
 )

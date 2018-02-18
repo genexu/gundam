@@ -474,7 +474,7 @@ template {
   box-sizing: border-box;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 29.9rem) {
   .gd-col-1 {
     width: 25%;
   }
@@ -513,7 +513,7 @@ template {
   }
 }
 
-@media (max-width: 839px) and (min-width: 480px) {
+@media (max-width: 67.4rem) and (min-width: 30rem) {
   .gd-col-1 {
     width: 12.5%;
   }
@@ -553,13 +553,13 @@ template {
 }
 
 .gd-alert {
-  border: 1px solid #EFEFEF;
-  padding: 14px;
+  border: 0.0625rem solid #EFEFEF;
+  padding: 0.875rem;
 }
 
 .gd-btn {
   border: transparent;
-  padding: 12px;
+  padding: 0.75rem;
   background-color: #EFEFEF;
   cursor: pointer;
 }
