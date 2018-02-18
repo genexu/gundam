@@ -10,7 +10,7 @@ $colors: (
   'green': hsl(120, 48%, 25%)
 );
 
-$device_breakpoints: (
+$device-breakpoints: (
   'desktop': (max: null, min: '67.5rem'),
   'tablet': (max: '67.4rem', min: '30rem'),
   'phone': (max: '29.9rem', min: null)

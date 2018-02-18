@@ -515,10 +515,10 @@ template {
 }
 
 .gd-container {
-  width: 100%;
-  padding: 0.6rem 1rem;
-  overflow: auto;
   box-sizing: border-box;
+  overflow: auto;
+  padding: .6rem 1rem;
+  width: 100%;
 }
 
 .gd-row {
@@ -527,63 +527,63 @@ template {
 }
 
 .gd-col-1 {
-  width: 8.33333%;
   box-sizing: border-box;
+  width: 8.33333%;
 }
 
 .gd-col-2 {
-  width: 16.66667%;
   box-sizing: border-box;
+  width: 16.66667%;
 }
 
 .gd-col-3 {
-  width: 25%;
   box-sizing: border-box;
+  width: 25%;
 }
 
 .gd-col-4 {
-  width: 33.33333%;
   box-sizing: border-box;
+  width: 33.33333%;
 }
 
 .gd-col-5 {
-  width: 41.66667%;
   box-sizing: border-box;
+  width: 41.66667%;
 }
 
 .gd-col-6 {
-  width: 50%;
   box-sizing: border-box;
+  width: 50%;
 }
 
 .gd-col-7 {
-  width: 58.33333%;
   box-sizing: border-box;
+  width: 58.33333%;
 }
 
 .gd-col-8 {
-  width: 66.66667%;
   box-sizing: border-box;
+  width: 66.66667%;
 }
 
 .gd-col-9 {
-  width: 75%;
   box-sizing: border-box;
+  width: 75%;
 }
 
 .gd-col-10 {
-  width: 83.33333%;
   box-sizing: border-box;
+  width: 83.33333%;
 }
 
 .gd-col-11 {
-  width: 91.66667%;
   box-sizing: border-box;
+  width: 91.66667%;
 }
 
 .gd-col-12 {
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
 }
 
 @media (max-width: 29.9rem) {

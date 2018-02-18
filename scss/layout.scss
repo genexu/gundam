@@ -1,8 +1,8 @@
 .#{$prefix}-container {
-  width: 100%;
-  padding: 0.6rem 1rem;
-  overflow: auto;
   box-sizing: border-box;
+  overflow: auto;
+  padding: .6rem 1rem;
+  width: 100%;
 }
 
 .#{$prefix}-row {
@@ -12,8 +12,8 @@
 
 @for $index from 1 through 12 {
   .#{$prefix}-col-#{$index} {
-    width: percentage($index / 12); 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    width: percentage($index / 12);
   }
 }
 
@@ -21,9 +21,9 @@
   @for $index from 1 through 12 {
     .#{$prefix}-col-#{$index} {
       @if $index <= 2 {
-        width: percentage($index / 4) 
+        width: percentage($index / 4);
       } @else {
-        width: 100%; 
+        width: 100%;
       }
     }
   }
@@ -33,9 +33,9 @@
   @for $index from 1 through 12 {
     .#{$prefix}-col-#{$index} {
       @if $index <= 4 {
-        width: percentage($index / 8) 
+        width: percentage($index / 8);
       } @else {
-        width: 100%; 
+        width: 100%;
       }
     }
   }

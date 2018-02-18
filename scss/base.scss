@@ -19,9 +19,9 @@
 @for $index from 0 through 24 {
   .#{$prefix}-dp-#{$index} {
     @if ($index == 0) {
-      box-shadow: none;  
+      box-shadow: none;
     } @else {
-      box-shadow: depth_shadow($index);  
+      box-shadow: depth-shadow($index);
     }
   }
 }
