@@ -668,4 +668,25 @@ template {
   outline: 0;
 }
 
+.gd-navbar {
+  background-color: #EFEFEF;
+  min-height: 3.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.gd-navbar-brand {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+}
+
+.gd-navbar-item {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0 0.5rem;
+}
+
 /*# sourceMappingURL=gundam.css.map */
