@@ -7,7 +7,8 @@
     "build-all": "npm run build-normal && npm run build-minify",
     "build-normal": "node-sass --source-map true --output-style expanded --include-path scss --include-path node_modules/normalize.css scss/gundam.scss css/gundam.css",
     "build-minify": "node-sass --source-map true --output-style compressed --include-path scss --include-path node_modules/normalize.css scss/gundam.scss css/gundam.min.css",
-    "watch": "nodemon -w scss -e scss -x \"npm run build-all\""
+    "watch": "nodemon -w scss -e scss -x \"npm run build-all\"",
+    "lint": "sass-lint -c ./sass-lint.yml -v -q"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "devDependencies": {
     "node-sass": "^4.7.2",
     "nodemon": "^1.14.3",
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "sass-lint": "^1.12.1"
   }
 }
