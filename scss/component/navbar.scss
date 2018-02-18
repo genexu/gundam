@@ -1,5 +1,5 @@
 .#{$prefix}-navbar {
-  background-color: #EFEFEF;
+  background-color: map-get($colors, 'default');
   min-height: 3.75rem;
   display: flex;
   align-items: center;

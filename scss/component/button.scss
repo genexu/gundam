@@ -1,7 +1,7 @@
 .#{$prefix}-btn {
   border: transparent;
   padding: 0.75rem;
-  background-color: #EFEFEF;
+  background-color: map-get($colors, 'default');
   cursor: pointer;
   &:focus {
     outline:0;

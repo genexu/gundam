@@ -330,6 +330,10 @@ template {
   display: none;
 }
 
+.gd-default {
+  color: #f0f0f0 !important;
+}
+
 .gd-black {
   color: black !important;
 }
@@ -354,6 +358,10 @@ template {
   color: #215e21 !important;
 }
 
+.gd-bg-default {
+  background-color: #f0f0f0 !important;
+}
+
 .gd-bg-black {
   background-color: black !important;
 }
@@ -376,6 +384,10 @@ template {
 
 .gd-bg-green {
   background-color: #215e21 !important;
+}
+
+.gd-bd-default {
+  border-color: #f0f0f0 !important;
 }
 
 .gd-bd-black {
@@ -653,14 +665,14 @@ template {
 }
 
 .gd-alert {
-  border: 0.0625rem solid #EFEFEF;
+  border: 0.0625rem solid #f0f0f0;
   padding: 0.875rem;
 }
 
 .gd-btn {
   border: transparent;
   padding: 0.75rem;
-  background-color: #EFEFEF;
+  background-color: #f0f0f0;
   cursor: pointer;
 }
 
@@ -669,7 +681,7 @@ template {
 }
 
 .gd-navbar {
-  background-color: #EFEFEF;
+  background-color: #f0f0f0;
   min-height: 3.75rem;
   display: flex;
   align-items: center;

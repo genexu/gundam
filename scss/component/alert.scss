@@ -1,4 +1,4 @@
 .#{$prefix}-alert {
-  border: 0.0625rem solid #EFEFEF;
+  border: 0.0625rem solid map-get($colors, 'default');
   padding: 0.875rem;
 }
