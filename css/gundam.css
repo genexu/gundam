@@ -529,8 +529,16 @@ template {
   margin: 0;
 }
 
+.gd-text-left {
+  text-align: left;
+}
+
 .gd-text-center {
   text-align: center;
+}
+
+.gd-text-right {
+  text-align: right;
 }
 
 .gd-container {

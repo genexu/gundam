@@ -41,6 +41,8 @@
   margin: 0;
 }
 
-.#{$prefix}-text-center {
-  text-align: center;
+@each $align in $alignments {
+  .#{$prefix}-text-#{$align} {
+    text-align: $align;
+  }
 }
