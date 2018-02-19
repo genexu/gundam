@@ -3,6 +3,7 @@
   <head>
     <title>Simple Doc</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/gundam.css">
   </head>
@@ -110,6 +111,45 @@
         <button class="gd-btn gd-bg-red gd-white gd-dp-2">Button</button>
         <button class="gd-btn gd-bg-yellow gd-dp-2">Button</button>
         <button class="gd-btn gd-bg-green gd-white gd-dp-2">Button</button>
+        <h3>Dropdown</h3>
+        <div class="gd-row">
+          <div class="example-dropdown gd-dropdown gd-dp-2">
+            <input id="dropdownTroggle1" type="checkbox" />
+            <label for="dropdownTroggle1">
+              Dropdown Toggle
+              <i class="fas fa-angle-down"></i>
+            </label>
+            <div class="gd-dropdown-content gd-dp-3">    
+              <div class="example-menu gd-menu">
+                <p class="gd-menu-lable">Lable</p>
+                <hr class="separator">
+                <ul class="gd-menu-list">
+                  <li><a>List Item</a></li>
+                  <li><a>List Item</a></li>
+                  <li><a>List Item</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="example-dropdown gd-dropdown gd-dp-2">
+            <input id="dropdownTroggle2" type="checkbox" />
+            <label for="dropdownTroggle2">
+              Dropdown Toggle
+              <i class="fas fa-angle-down"></i>
+            </label>
+            <div class="gd-dropdown-content gd-dp-3">    
+              <div class="example-menu gd-menu">
+                <p class="gd-menu-lable">Lable</p>
+                <hr class="separator">
+                <ul class="gd-menu-list">
+                  <li><a>List Item</a></li>
+                  <li><a>List Item</a></li>
+                  <li><a>List Item</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
         <h3>Menu</h3>
         <div class="gd-row">
           <div class="example-menu gd-menu gd-dp-8">
@@ -181,6 +221,9 @@
   }
   .example-menu {
     width: 16rem;
+  }
+  .example-dropdown {
+    margin-right: 1rem
   }
   section {
     position: relative;

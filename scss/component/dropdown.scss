@@ -1,0 +1,24 @@
+.#{$prefix}-dropdown {
+  display: flex;
+  position: relative;
+  > input[type=checkbox] {
+    display: none;
+    &:checked ~ .#{$prefix}-dropdown-content {
+      display: flex;
+    }
+  }
+  > label {
+    border: 1px solid #EFEFEF;
+    cursor: pointer;
+    padding: 1rem;
+  }
+}
+
+.#{$prefix}-dropdown-content {
+  background-color: #FFF;
+  border: 1px solid #EFEFEF;
+  display: none;
+  margin-top: 0.25rem;
+  position: absolute;
+  top: 100%;
+}
