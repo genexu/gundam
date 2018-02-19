@@ -514,6 +514,12 @@ template {
   box-shadow: 0 16px 28.8px rgba(0, 0, 0, 0.08);
 }
 
+.separator {
+  border-style: none;
+  border-top: 1px solid #f0f0f0;
+  margin: 0;
+}
+
 .gd-container {
   box-sizing: border-box;
   overflow: auto;
@@ -678,6 +684,31 @@ template {
 
 .gd-btn:focus {
   outline: 0;
+}
+
+.gd-menu {
+  padding: 0 1.2rem;
+}
+
+.gd-menu-list {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding-left: 0;
+}
+
+.gd-menu-list li a {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.gd-menu-list li a:hover {
+  background-color: #f0f0f0;
+}
+
+.gd-menu-list li ul {
+  border-left: 1px solid #f0f0f0;
+  margin: 0 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .gd-navbar {

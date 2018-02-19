@@ -1,0 +1,23 @@
+.#{$prefix}-menu {
+  padding: 0 1.2rem;
+}
+
+.#{$prefix}-menu-list {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding-left: 0;
+  li {
+    a {
+      display: flex;
+      padding: 0.5rem;
+      &:hover {
+        background-color: map-get($colors, 'default');
+      }
+    }
+    ul {
+      border-left: 1px solid map-get($colors, 'default');
+      margin: 0 0.5rem;
+      padding-left: 0.5rem;
+    }
+  }
+}

@@ -110,6 +110,32 @@
         <button class="gd-btn gd-bg-red gd-white gd-dp-2">Button</button>
         <button class="gd-btn gd-bg-yellow gd-dp-2">Button</button>
         <button class="gd-btn gd-bg-green gd-white gd-dp-2">Button</button>
+        <h3>Menu</h3>
+        <div class="gd-row">
+          <div class="example-menu gd-menu gd-dp-8">
+            <p class="gd-menu-lable">Lable</p>
+            <hr class="separator">
+            <ul class="gd-menu-list">
+              <li><a>List Item</a></li>
+              <li><a>List Item</a></li>
+              <li><a>List Item</a></li>
+            </ul>
+            <p class="gd-menu-lable">Lable</p>
+            <hr class="separator">
+            <ul class="gd-menu-list">
+              <li><a>List Item</a></li>
+              <li>
+                <a>List Item</a>
+                <ul class="gd-menu-list">
+                  <li><a>List Item</a></li>
+                  <li><a>List Item</a></li>
+                  <li><a>List Item</a></li>
+                </ul>
+              </li>
+              <li><a>List Item</a></li>
+            </ul>
+          </div>
+        </div>
         <h3>Navbar</h3>
         <h5>Default</h5>
         <div class="gd-navbar">
@@ -152,6 +178,9 @@
     height: 50px;
     border: 1px solid #EEE;
     background-color: #BBB;
+  }
+  .example-menu {
+    width: 16rem;
   }
   section {
     position: relative;
