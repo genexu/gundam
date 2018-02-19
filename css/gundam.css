@@ -519,7 +519,7 @@ template {
   margin: .3rem 0;
 }
 
-.separator {
+.gd-separator {
   border-style: none;
   border-top: 1px solid #f0f0f0;
   margin: 0;
