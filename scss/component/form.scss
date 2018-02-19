@@ -1,0 +1,23 @@
+.#{$prefix}-form-field {
+  margin-bottom: 0.8rem;
+  > label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+  > input {
+    box-sizing: border-box;
+    padding: .6rem;
+    width: 100%;
+  }
+  > textarea {
+    box-sizing: border-box;
+    min-height: 6rem;
+    padding: .6rem;
+    width: 100%;
+  }
+}
+
+.#{$prefix}-checkbox-field {
+  display: block;
+  margin-bottom: .8rem;
+}

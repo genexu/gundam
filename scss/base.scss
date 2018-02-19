@@ -26,6 +26,11 @@
   }
 }
 
+.#{$prefix}-helper {
+  display: flex;
+  margin: .3rem 0;
+}
+
 .separator {
   border-style: none;
   border-top: 1px solid map-get($colors, 'default');

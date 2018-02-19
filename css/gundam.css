@@ -514,6 +514,11 @@ template {
   box-shadow: 0 16px 28.8px rgba(0, 0, 0, 0.08);
 }
 
+.gd-helper {
+  display: flex;
+  margin: .3rem 0;
+}
+
 .separator {
   border-style: none;
   border-top: 1px solid #f0f0f0;
@@ -712,6 +717,33 @@ template {
   margin-top: 0.25rem;
   position: absolute;
   top: 100%;
+}
+
+.gd-form-field {
+  margin-bottom: 0.8rem;
+}
+
+.gd-form-field > label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.gd-form-field > input {
+  box-sizing: border-box;
+  padding: .6rem;
+  width: 100%;
+}
+
+.gd-form-field > textarea {
+  box-sizing: border-box;
+  min-height: 6rem;
+  padding: .6rem;
+  width: 100%;
+}
+
+.gd-checkbox-field {
+  display: block;
+  margin-bottom: .8rem;
 }
 
 .gd-menu {
