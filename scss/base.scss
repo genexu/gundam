@@ -26,6 +26,10 @@
   }
 }
 
+.#{$prefix}-full-width {
+  width: 100% !important;
+}
+
 .#{$prefix}-helper {
   display: flex;
   margin: .3rem 0;
@@ -35,4 +39,8 @@
   border-style: none;
   border-top: 1px solid map-get($colors, 'default');
   margin: 0;
+}
+
+.#{$prefix}-text-center {
+  text-align: center;
 }

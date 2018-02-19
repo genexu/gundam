@@ -1,0 +1,22 @@
+.#{$prefix}-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.#{$prefix}-card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.#{$prefix}-card-content {
+  padding: 1rem;
+}
+
+.#{$prefix}-card-header {
+  margin: 0;
+  padding: 1rem;
+}
+
+.#{$prefix}-card-title {
+  margin-top: 0;
+}
