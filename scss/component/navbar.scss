@@ -1,20 +1,20 @@
 .#{$prefix}-navbar {
-  background-color: map-get($colors, 'default');
-  min-height: 3.75rem;
-  display: flex;
   align-items: center;
+  background-color: map-get($colors, 'default');
+  display: flex;
+  min-height: 3.75rem;
 }
 
 .#{$prefix}-navbar-brand {
-  text-decoration: none;
   color: map-get($colors, 'black');
   font-size: 1.6rem;
   padding: 0 1rem;
+  text-decoration: none;
 }
 
 .#{$prefix}-navbar-item {
-  text-decoration: none;
   color: map-get($colors, 'black');
   font-size: 1.2rem;
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
+  text-decoration: none;
 }

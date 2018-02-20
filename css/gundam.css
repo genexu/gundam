@@ -693,14 +693,14 @@ template {
 
 .gd-alert {
   border: 0.0625rem solid #f0f0f0;
-  padding: 0.875rem;
+  padding: .875rem;
 }
 
 .gd-btn {
-  border: transparent;
-  padding: 0.75rem;
   background-color: #f0f0f0;
+  border: transparent;
   cursor: pointer;
+  padding: .75rem;
 }
 
 .gd-btn:focus {
@@ -713,8 +713,8 @@ template {
 }
 
 .gd-card-img {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .gd-card-content {
@@ -735,31 +735,31 @@ template {
   position: relative;
 }
 
-.gd-dropdown > input[type=checkbox] {
+.gd-dropdown > .gd-dropdown-hacker {
   display: none;
 }
 
-.gd-dropdown > input[type=checkbox]:checked ~ .gd-dropdown-content {
+.gd-dropdown > .gd-dropdown-hacker:checked ~ .gd-dropdown-content {
   display: flex;
 }
 
 .gd-dropdown > label {
-  border: 1px solid #EFEFEF;
+  border: 1px solid #f0f0f0;
   cursor: pointer;
   padding: 1rem;
 }
 
 .gd-dropdown-content {
-  background-color: #FFF;
-  border: 1px solid #EFEFEF;
+  background-color: white;
+  border: 1px solid #f0f0f0;
   display: none;
-  margin-top: 0.25rem;
+  margin-top: .25rem;
   position: absolute;
   top: 100%;
 }
 
 .gd-form-field {
-  margin-bottom: 0.8rem;
+  margin-bottom: .8rem;
 }
 
 .gd-form-field > label {
@@ -791,84 +791,84 @@ template {
 
 .gd-menu-list {
   list-style: none;
-  margin: 0.5rem 0;
+  margin: .5rem 0;
   padding-left: 0;
 }
 
-.gd-menu-list li a {
+.gd-list-item a {
   display: flex;
-  padding: 0.5rem;
+  padding: .5rem;
 }
 
-.gd-menu-list li a:hover {
+.gd-list-item a:hover {
   background-color: #f0f0f0;
 }
 
-.gd-menu-list li ul {
+.gd-list-item ul {
   border-left: 1px solid #f0f0f0;
-  margin: 0 0.5rem;
-  padding-left: 0.5rem;
+  margin: 0 .5rem;
+  padding-left: .5rem;
 }
 
 .gd-navbar {
-  background-color: #f0f0f0;
-  min-height: 3.75rem;
-  display: flex;
   align-items: center;
+  background-color: #f0f0f0;
+  display: flex;
+  min-height: 3.75rem;
 }
 
 .gd-navbar-brand {
-  text-decoration: none;
   color: black;
   font-size: 1.6rem;
   padding: 0 1rem;
+  text-decoration: none;
 }
 
 .gd-navbar-item {
-  text-decoration: none;
   color: black;
   font-size: 1.2rem;
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
+  text-decoration: none;
 }
 
 .gd-tooltip {
   background-color: rgba(0, 0, 0, 0.91);
-  padding: 0.8rem;
+  color: white;
+  padding: .8rem;
   position: absolute;
-  color: #FFF;
 }
 
 .gd-tooltip > .gd-tooltip-arrow-bottom {
-  border-style: solid solid solid solid;
-  border-width: 0.5rem;
-  position: absolute;
   border-color: rgba(0, 0, 0, 0.91) transparent transparent transparent;
-  left: calc(50% - 0.5rem);
+  border-style: solid;
+  border-width: .5rem;
+  position: absolute;
+  left: calc(50% - .5rem);
   top: 100%;
 }
 
 .gd-tooltip > .gd-tooltip-arrow-left {
-  border-style: solid solid solid solid;
-  border-width: 0.5rem;
-  position: absolute;
   border-color: transparent rgba(0, 0, 0, 0.91) transparent transparent;
+  border-style: solid;
+  border-width: .5rem;
+  position: absolute;
   left: calc(0% - 1rem);
 }
 
 .gd-tooltip > .gd-tooltip-arrow-top {
-  border-style: solid solid solid solid;
-  border-width: 0.5rem;
-  position: absolute;
   border-color: transparent transparent rgba(0, 0, 0, 0.91) transparent;
-  left: calc(50% - 0.5rem);
+  border-style: solid;
+  border-width: .5rem;
+  position: absolute;
+  left: calc(50% - .5rem);
   top: calc(0% - 1rem);
 }
 
 .gd-tooltip > .gd-tooltip-arrow-right {
-  border-style: solid solid solid solid;
-  border-width: 0.5rem;
-  position: absolute;
   border-color: transparent transparent transparent rgba(0, 0, 0, 0.91);
+  border-style: solid;
+  border-width: .5rem;
+  position: absolute;
   left: 100%;
 }
 

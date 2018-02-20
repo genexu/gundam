@@ -1,24 +1,27 @@
 .#{$prefix}-dropdown {
   display: flex;
   position: relative;
-  > input[type=checkbox] {
+
+  > .#{$prefix}-dropdown-hacker {
     display: none;
+
     &:checked ~ .#{$prefix}-dropdown-content {
       display: flex;
     }
   }
+
   > label {
-    border: 1px solid #EFEFEF;
+    border: 1px solid map-get($colors, 'default');
     cursor: pointer;
     padding: 1rem;
   }
 }
 
 .#{$prefix}-dropdown-content {
-  background-color: #FFF;
-  border: 1px solid #EFEFEF;
+  background-color: map-get($colors, 'white');
+  border: 1px solid map-get($colors, 'default');
   display: none;
-  margin-top: 0.25rem;
+  margin-top: .25rem;
   position: absolute;
   top: 100%;
 }
