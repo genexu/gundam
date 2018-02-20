@@ -1,0 +1,42 @@
+%tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  > li {
+    border-bottom: 1px solid map-get($colors, 'default');
+    list-style: none;
+    padding: 1rem;
+  }
+}
+
+.#{$prefix}-tabs {
+  @extend %tabs;
+
+  > li {
+    &:hover {
+      border-color: map-get($colors, 'blue');
+    }
+  }
+
+  > .gd-active {
+    border-bottom: 1px solid map-get($colors, 'blue');
+    color: map-get($colors, 'blue');
+  }
+}
+
+.#{$prefix}-tabs-folder {
+  @extend %tabs;
+
+  > li {
+    &:hover {
+      background-color: map-get($colors, 'default');
+    }
+  }
+
+  > .gd-active {
+    border: 1px solid map-get($colors, 'default');
+    border-bottom: 0;
+    color: map-get($colors, 'blue');
+  }
+}

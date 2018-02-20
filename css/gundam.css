@@ -883,6 +883,37 @@ template {
   text-decoration: none;
 }
 
+.gd-tabs, .gd-tabs-folder {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.gd-tabs > li, .gd-tabs-folder > li {
+  border-bottom: 1px solid #f0f0f0;
+  list-style: none;
+  padding: 1rem;
+}
+
+.gd-tabs > li:hover {
+  border-color: #0d299c;
+}
+
+.gd-tabs > .gd-active {
+  border-bottom: 1px solid #0d299c;
+  color: #0d299c;
+}
+
+.gd-tabs-folder > li:hover {
+  background-color: #f0f0f0;
+}
+
+.gd-tabs-folder > .gd-active {
+  border: 1px solid #f0f0f0;
+  border-bottom: 0;
+  color: #0d299c;
+}
+
 .gd-tooltip {
   background-color: rgba(0, 0, 0, 0.91);
   color: white;
