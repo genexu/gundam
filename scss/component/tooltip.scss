@@ -1,0 +1,30 @@
+.#{$prefix}-tooltip {
+  background-color: hsla(0, 0%, 0%, 0.91);
+  padding: 0.8rem;
+  position: absolute;
+  color: #FFF;
+  @for $index from 1 through length($directions) {
+    $direct: nth($directions, $index);
+    > .#{$prefix}-tooltip-arrow-#{$direct} {
+      border-style: solid solid solid solid;
+      border-width: 0.5rem;
+      position: absolute;
+
+      $init-border-color: transparent transparent transparent transparent;
+      $border-color: set-nth($init-border-color, $index, rgba(0, 0, 0, 0.91));
+      border-color: $border-color;
+      
+      @if ($direct == bottom) {
+        left: calc(50% - 0.5rem);
+        top: 100%;
+      } @else if ($direct == left) {
+        left: calc(0% - 1rem);
+      } @else if ($direct == top) {
+        left: calc(50% - 0.5rem);
+        top: calc(0% - 1rem);
+      } @else {
+        left: 100%;
+      }
+    }
+  }
+}

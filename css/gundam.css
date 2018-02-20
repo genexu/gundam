@@ -831,4 +831,45 @@ template {
   padding: 0 0.5rem;
 }
 
+.gd-tooltip {
+  background-color: rgba(0, 0, 0, 0.91);
+  padding: 0.8rem;
+  position: absolute;
+  color: #FFF;
+}
+
+.gd-tooltip > .gd-tooltip-arrow-bottom {
+  border-style: solid solid solid solid;
+  border-width: 0.5rem;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.91) transparent transparent transparent;
+  left: calc(50% - 0.5rem);
+  top: 100%;
+}
+
+.gd-tooltip > .gd-tooltip-arrow-left {
+  border-style: solid solid solid solid;
+  border-width: 0.5rem;
+  position: absolute;
+  border-color: transparent rgba(0, 0, 0, 0.91) transparent transparent;
+  left: calc(0% - 1rem);
+}
+
+.gd-tooltip > .gd-tooltip-arrow-top {
+  border-style: solid solid solid solid;
+  border-width: 0.5rem;
+  position: absolute;
+  border-color: transparent transparent rgba(0, 0, 0, 0.91) transparent;
+  left: calc(50% - 0.5rem);
+  top: calc(0% - 1rem);
+}
+
+.gd-tooltip > .gd-tooltip-arrow-right {
+  border-style: solid solid solid solid;
+  border-width: 0.5rem;
+  position: absolute;
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.91);
+  left: 100%;
+}
+
 /*# sourceMappingURL=gundam.css.map */
