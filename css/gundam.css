@@ -541,6 +541,26 @@ template {
   text-align: right;
 }
 
+.gd-no-margin {
+  margin: 0 !important;
+}
+
+.gd-no-padding {
+  padding: 0 !important;
+}
+
+.gd-invisible {
+  display: none !important;
+}
+
+.gd-pull-left {
+  float: left !important;
+}
+
+.gd-pull-right {
+  float: right !important;
+}
+
 .gd-container {
   box-sizing: border-box;
   overflow: auto;

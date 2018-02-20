@@ -46,3 +46,23 @@
     text-align: $align;
   }
 }
+
+.#{$prefix}-no-margin {
+  margin: 0 !important;
+}
+
+.#{$prefix}-no-padding {
+  padding: 0 !important;
+}
+
+.#{$prefix}-invisible {
+  display: none !important;
+}
+
+.#{$prefix}-pull-left {
+  float: left !important;
+}
+
+.#{$prefix}-pull-right {
+  float: right !important;
+}
