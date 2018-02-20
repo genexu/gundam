@@ -714,6 +714,11 @@ template {
   outline: 0;
 }
 
+.gd-btn[disabled] {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
 .gd-card {
   display: flex;
   flex-direction: column;

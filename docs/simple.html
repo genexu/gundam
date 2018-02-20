@@ -146,12 +146,24 @@
         <button class="gd-btn gd-dp-2 gd-bg-blue gd-white">Button <span class="gd-badge gd-bg-default gd-black">6</span></button>
         <button class="gd-btn gd-dp-2 gd-bg-blue gd-white"><span class="gd-badge gd-bg-default gd-black">6</span> Button</button>
         <h3>Button</h3>
-        <button class="gd-btn gd-dp-2">Button</button>
-        <button class="gd-btn gd-bg-black gd-white gd-dp-2">Button</button>
-        <button class="gd-btn gd-bg-blue gd-white gd-dp-2">Button</button>
-        <button class="gd-btn gd-bg-red gd-white gd-dp-2">Button</button>
-        <button class="gd-btn gd-bg-yellow gd-dp-2">Button</button>
-        <button class="gd-btn gd-bg-green gd-white gd-dp-2">Button</button>
+        <h5>Normal Button</h5>
+        <div class="example-button-row gd-row">
+          <button class="gd-btn gd-dp-2">Button</button>
+          <button class="gd-btn gd-bg-black gd-white gd-dp-2">Button</button>
+          <button class="gd-btn gd-bg-blue gd-white gd-dp-2">Button</button>
+          <button class="gd-btn gd-bg-red gd-white gd-dp-2">Button</button>
+          <button class="gd-btn gd-bg-yellow gd-dp-2">Button</button>
+          <button class="gd-btn gd-bg-green gd-white gd-dp-2">Button</button>
+        </div>
+        <h5>Disabled Button</h5>
+        <div class="example-button-row gd-row">
+          <button disabled class="gd-btn gd-dp-2">Button</button>
+          <button disabled class="gd-btn gd-bg-black gd-white gd-dp-2">Button</button>
+          <button disabled class="gd-btn gd-bg-blue gd-white gd-dp-2">Button</button>
+          <button disabled class="gd-btn gd-bg-red gd-white gd-dp-2">Button</button>
+          <button disabled class="gd-btn gd-bg-yellow gd-dp-2">Button</button>
+          <button disabled class="gd-btn gd-bg-green gd-white gd-dp-2">Button</button>
+        </div>
         <h3>Card</h3>
           <div class="gd-row">
             <div class="gd-col-4">
@@ -378,6 +390,12 @@
   }
   .example-tooltip-row {
     height: 5rem;
+  }
+  .example-button-row {
+    padding-bottom: 1rem;
+  }
+  .example-button-row > .gd-btn {
+    margin-right: 1rem;
   }
   section {
     position: relative;
