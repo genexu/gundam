@@ -207,6 +207,94 @@
             </ul>
           </div>
         </div>
+        <h1>Layout</h1>
+        <hr class="gd-separator">
+        <h2>Container</h2>
+        <div class="gd-row">
+          <div class="gd-container gd-dp-1" style="height: 8rem;"></div>
+          <script type="text/plain" class="language-markup">
+<div class="gd-container gd-dp-1">
+  ...  
+</div>
+          </script>
+        </div>
+        <h2>Grid System</h2>
+        <div class="gd-row" style="display: block;">
+          <div class="gd-row">
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+            <div class="demo-col gd-col-1">1</div> 
+          </div>
+          <div class="gd-row">
+            <div class="demo-col gd-col-2">2</div> 
+            <div class="demo-col gd-col-2">2</div> 
+            <div class="demo-col gd-col-2">2</div> 
+            <div class="demo-col gd-col-2">2</div> 
+            <div class="demo-col gd-col-2">2</div> 
+            <div class="demo-col gd-col-2">2</div> 
+          </div>
+          <div class="gd-row">
+            <div class="demo-col gd-col-3">3</div> 
+            <div class="demo-col gd-col-3">3</div> 
+            <div class="demo-col gd-col-3">3</div> 
+            <div class="demo-col gd-col-3">3</div> 
+          </div>
+          <div class="gd-row">
+            <div class="demo-col gd-col-4">4</div> 
+            <div class="demo-col gd-col-4">4</div> 
+            <div class="demo-col gd-col-4">4</div> 
+          </div>
+          <div class="gd-row">
+            <div class="demo-col gd-col-6">6</div> 
+            <div class="demo-col gd-col-6">6</div> 
+          </div>
+          <div class="gd-row">
+            <div class="demo-col gd-col-12">12</div> 
+          </div>
+          <script type="text/plain" class="language-markup">
+<div class="gd-row">
+  <div class="demo-col gd-col-1">1</div> 
+  <div class="demo-col gd-col-1">1</div> 
+  <div class="demo-col gd-col-1">1</div> 
+  ...
+  <div class="demo-col gd-col-1">1</div> 
+  <div class="demo-col gd-col-1">1</div> 
+</div>
+<div class="gd-row">
+  <div class="demo-col gd-col-2">2</div> 
+  <div class="demo-col gd-col-2">2</div> 
+  ...
+  <div class="demo-col gd-col-2">2</div> 
+</div>
+<div class="gd-row">
+  <div class="demo-col gd-col-3">3</div> 
+  <div class="demo-col gd-col-3">3</div> 
+  <div class="demo-col gd-col-3">3</div> 
+  <div class="demo-col gd-col-3">3</div> 
+</div>
+<div class="gd-row">
+  <div class="demo-col gd-col-4">4</div> 
+  <div class="demo-col gd-col-4">4</div> 
+  <div class="demo-col gd-col-4">4</div> 
+</div>
+<div class="gd-row">
+  <div class="demo-col gd-col-6">6</div> 
+  <div class="demo-col gd-col-6">6</div> 
+</div>
+<div class="gd-row">
+  <div class="demo-col gd-col-12">12</div> 
+</div>
+          </script>
+        </div>
       </div>
     </div>
   </body>
@@ -255,11 +343,22 @@
   .demo-helper-text {
     width: 100%;
   }
+  .demo-col {
+    height: 50px;
+    border: 1px solid #DDD;
+    background-color: #EFEFEF;
+  }
   .language-markup {
     margin: 3rem 0 !important;
     width: 100%;
+    box-sizing: border-box;
   }
   body {
     font-family: 'Open Sans', sans-serif;
+  }
+  @media (max-width: 67.4rem) {
+    .demo-sidebar {
+      display: none;
+    }
   }
 </style>
