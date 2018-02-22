@@ -295,6 +295,48 @@
 </div>
           </script>
         </div>
+        <h1>Component</h1>
+        <hr class="gd-separator">
+        <h2>Alert</h2>
+        <div class="gd-row">
+          <div class="demo-alert-text gd-alert">The alert info</div>
+          <div class="demo-alert-text gd-alert gd-bd-black">The alert info</div>
+          <div class="demo-alert-text gd-alert gd-bd-blue gd-blue">The alert info</div>
+          <div class="demo-alert-text gd-alert gd-bd-red gd-red">The alert info</div>
+          <div class="demo-alert-text gd-alert gd-bd-yellow gd-yellow">The alert info</div>
+          <div class="demo-alert-text gd-alert gd-bd-green gd-green">The alert info</div>
+          <script type="text/plain" class="language-markup">
+<div class="gd-alert">The alert info</div>
+<div class="gd-alert gd-bd-black">The alert info</div>
+<div class="gd-alert gd-bd-blue gd-blue">The alert info</div>
+<div class="gd-alert gd-bd-red gd-red">The alert info</div>
+<div class="gd-alert gd-bd-yellow gd-yellow">The alert info</div>
+<div class="gd-alert gd-bd-green gd-green">The alert info</div>
+          </script>
+        </div>
+        <h2>Badge</h2>
+        <div class="gd-row">
+          <h1 class="demo-badge-heading">Heading 1 <span class="gd-badge gd-bg-default">Info</span></h1>
+          <h2 class="demo-badge-heading">Heading 2 <span class="gd-badge gd-bg-default">Info</span></h2>
+          <h3 class="demo-badge-heading">Heading 3 <span class="gd-badge gd-bg-default">Info</span></h3>
+          <h4 class="demo-badge-heading">Heading 4 <span class="gd-badge gd-bg-default">Info</span></h4>
+          <h5 class="demo-badge-heading">Heading 5 <span class="gd-badge gd-bg-default">Info</span></h5>
+          <h6 class="demo-badge-heading">Heading 6 <span class="gd-badge gd-bg-default">Info</span></h6> 
+          <script type="text/plain" class="language-markup">
+<h1>Heading 1 <span class="gd-badge gd-bg-default">Info</span></h1>
+<h2>Heading 2 <span class="gd-badge gd-bg-default">Info</span></h2>
+<h3>Heading 3 <span class="gd-badge gd-bg-default">Info</span></h3>
+<h4>Heading 4 <span class="gd-badge gd-bg-default">Info</span></h4>
+<h5>Heading 5 <span class="gd-badge gd-bg-default">Info</span></h5>
+<h6>Heading 6 <span class="gd-badge gd-bg-default">Info</span></h6> 
+          </script>
+        <button class="demo-badge-button gd-btn gd-dp-2 gd-bg-blue gd-white">Button <span class="gd-badge gd-bg-default gd-black">6</span></button>
+        <button class="demo-badge-button gd-btn gd-dp-2 gd-bg-blue gd-white"><span class="gd-badge gd-bg-default gd-black">6</span> Button</button>
+          <script type="text/plain" class="language-markup">
+<button class="gd-btn gd-dp-2 gd-bg-blue gd-white">Button <span class="gd-badge gd-bg-default gd-black">6</span></button>
+<button class="gd-btn gd-dp-2 gd-bg-blue gd-white"><span class="gd-badge gd-bg-default gd-black">6</span> Button</button>
+          </script>
+        </div>
       </div>
     </div>
   </body>
@@ -347,6 +389,16 @@
     height: 50px;
     border: 1px solid #DDD;
     background-color: #EFEFEF;
+  }
+  .demo-alert-text {
+    width: 100%; 
+    margin-bottom: 1rem;
+  }
+  .demo-badge-heading {
+    width: 100%;
+  }
+  .demo-badge-button {
+    margin-right: 1rem;
   }
   .language-markup {
     margin: 3rem 0 !important;
