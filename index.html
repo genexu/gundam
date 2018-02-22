@@ -2,8 +2,264 @@
 <html>
   <head>
     <title>Gundam</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="./node_modules/prismjs/themes/prism-okaidia.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./css/gundam.css">
+    <!-- prism.js -->
+    <script src="./node_modules/prismjs/prism.js"></script>
+    <link href="./node_modules/prismjs/themes/prism-okaidia.css" rel="stylesheet" />
+    <!-- prism.js -->
+    <script src="./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js"></script>
+    <link href="./node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header class="demo-header ">
+      <div class="gd-navbar gd-bg-blue gd-dp-4">
+          <a class="gd-navbar-brand gd-white">Gundam</a>
+      </div>
+    </header>
+    <div class="demo-body gd-container gd-no-padding">
+      <div class="demo-sidebar gd-dp-8">
+        <div class="gd-menu">
+          <p class="gd-menu-lable">Base</p>
+          <hr class="gd-separator">
+          <ul class="gd-menu-list">
+            <li class="gd-list-item"><a>Colors</a></li>
+            <li class="gd-list-item"><a>DP System</a></li>
+            <li class="gd-list-item"><a>Helper</a></li>
+            <li class="gd-list-item"><a>Utilities</a></li>
+          </ul>
+          <p class="gd-menu-lable">Loyout</p>
+          <hr class="gd-separator">
+          <ul class="gd-menu-list">
+            <li class="gd-list-item"><a>Container</a></li>
+            <li class="gd-list-item"><a>Grid System</a></li>
+          </ul>
+          <p class="gd-menu-lable">Component</p>
+          <hr class="gd-separator">
+          <ul class="gd-menu-list">
+            <li class="gd-list-item"><a>Alert</a></li>
+            <li class="gd-list-item"><a>Badge</a></li>
+            <li class="gd-list-item"><a>Button</a></li>
+            <li class="gd-list-item"><a>Card</a></li>
+            <li class="gd-list-item"><a>Dropdown</a></li>
+            <li class="gd-list-item"><a>Form</a></li>
+            <li class="gd-list-item"><a>Media</a></li>
+            <li class="gd-list-item"><a>Menu</a></li>
+            <li class="gd-list-item"><a>Navbar</a></li>
+            <li class="gd-list-item"><a>Tabs</a></li>
+            <li class="gd-list-item"><a>Tooltip</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="demo-content gd-container">
+        <h1>Base</h1>
+        <hr class="gd-separator">
+        <h2>Colors</h2>
+        <h3>Color</h3>
+        <div class="gd-row">
+          <p class="demo-color-text gd-default">Color example text.</p>
+          <p class="demo-color-text gd-bg-black gd-white">Color example text.</p>
+          <p class="demo-color-text gd-blackt">Color example text.</p>
+          <p class="demo-color-text gd-red">Color example text.</p>
+          <p class="demo-color-text gd-blue">Color example text.</p>
+          <p class="demo-color-text gd-yellow">Color example text.</p>
+          <p class="demo-color-text gd-green">Color example text.</p>
+          <script type="text/plain" class="language-markup">
+<div class="gd-default"></div>
+<div class="gd-white"></div>
+<div class="gd-black"></div>
+<div class="gd-red"></div>
+<div class="gd-blue"></div>
+<div class="gd-yellow"></div>
+<div class="gd-green"></div>
+          </script>
+        </div>
+        <h3>Background Color</h3>
+        <div class="gd-row">
+          <div class="demo-color-chip gd-dp-1 gd-bg-default"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bg-white"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bg-black"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bg-red"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bg-blue"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bg-yellow"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bg-green"></div>
+          <script type="text/plain" class="language-markup">
+<div class="gd-bg-default"></div>
+<div class="gd-bg-white"></div>
+<div class="gd-bg-black"></div>
+<div class="gd-bg-red"></div>
+<div class="gd-bg-blue"></div>
+<div class="gd-bg-yellow"></div>
+<div class="gd-bg-green"></div>
+          </script>
+        </div>
+        <h3>Border Color</h3>
+        <div class="gd-row">
+          <div class="demo-color-chip gd-dp-1 gd-bd-default"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bd-white"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bd-black"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bd-red"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bd-blue"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bd-yellow"></div>
+          <div class="demo-color-chip gd-dp-1 gd-bd-green"></div>
+          <script type="text/plain" class="language-markup">
+<div class="gd-bd-default"></div>
+<div class="gd-bd-white"></div>
+<div class="gd-bd-black"></div>
+<div class="gd-bd-red"></div>
+<div class="gd-bd-blue"></div>
+<div class="gd-bd-yellow"></div>
+<div class="gd-bd-green"></div>
+          </script>
+        </div>
+        <h2>DP System</h2>
+        <div class="gd-row">
+          <div class="demo-depth-chip gd-dp-0"></div>
+          <div class="demo-depth-chip gd-dp-1"></div>
+          <div class="demo-depth-chip gd-dp-2"></div>
+          <div class="demo-depth-chip gd-dp-3"></div>
+          <div class="demo-depth-chip gd-dp-4"></div>
+          <div class="demo-depth-chip gd-dp-5"></div>
+          <div class="demo-depth-chip gd-dp-6"></div>
+          <div class="demo-depth-chip gd-dp-7"></div>
+          <div class="demo-depth-chip gd-dp-8"></div>
+          <div class="demo-depth-chip gd-dp-9"></div>
+          <div class="demo-depth-chip gd-dp-10"></div>
+          <div class="demo-depth-chip gd-dp-11"></div>
+          <div class="demo-depth-chip gd-dp-12"></div>
+          <div class="demo-depth-chip gd-dp-13"></div>
+          <div class="demo-depth-chip gd-dp-14"></div>
+          <div class="demo-depth-chip gd-dp-15"></div>
+          <div class="demo-depth-chip gd-dp-16"></div>
+          <div class="demo-depth-chip gd-dp-17"></div>
+          <div class="demo-depth-chip gd-dp-18"></div>
+          <div class="demo-depth-chip gd-dp-19"></div>
+          <div class="demo-depth-chip gd-dp-20"></div>
+          <div class="demo-depth-chip gd-dp-21"></div>
+          <div class="demo-depth-chip gd-dp-22"></div>
+          <div class="demo-depth-chip gd-dp-23"></div>
+          <div class="demo-depth-chip gd-dp-24"></div>
+          <script type="text/plain" class="language-markup">
+<div class="gd-dp-0"></div>
+<div class="gd-dp-1"></div>
+<div class="gd-dp-2"></div>
+  ...
+<div class="gd-dp-23"></div>
+<div class="gd-dp-24"></div>
+          </script>
+        </div>
+        <h2>Helper Text</h2>
+        <div class="gd-row">
+          <small class="demo-helper-text gd-helper">This is helper text.</small>
+          <small class="demo-helper-text gd-helper gd-default">This is helper text.</small>
+          <small class="demo-helper-text gd-helper gd-red">This is helper text.</small>
+          <small class="demo-helper-text gd-helper gd-blue">This is helper text.</small>
+          <small class="demo-helper-text gd-helper gd-yellow">This is helper text.</small>
+          <small class="demo-helper-text gd-helper gd-green">This is helper text.</small>
+          <script type="text/plain" class="language-markup">
+<small class="gd-helper">This is helper text.</small>
+<small class="gd-helper gd-default">This is helper text.</small>
+<small class="gd-helper gd-red">This is helper text.</small>
+<small class="gd-helper gd-blue">This is helper text.</small>
+<small class="gd-helper gd-yellow">This is helper text.</small>
+<small class="gd-helper gd-green">This is helper text.</small>
+          </script>
+        </div>
+        <h2>Utilities</h2>
+        <div class="gd-row">
+          <div class="gd-menu" style="width: 100%;">
+            <p class="gd-menu-lable">Alignment</p>
+            <hr class="gd-separator">
+            <ul class="gd-menu-list">
+              <li class="gd-list-item"><a>.gd-text-left</a></li>
+              <li class="gd-list-item"><a>.gd-text-center</a></li>
+              <li class="gd-list-item"><a>.gd-text-right</a></li>
+            </ul>
+            <p class="gd-menu-lable">Float</p>
+            <hr class="gd-separator">
+            <ul class="gd-menu-list">
+              <li class="gd-list-item"><a>.gd-pull-left</a></li>
+              <li class="gd-list-item"><a>.gd-pull-right</a></li>
+            </ul>
+            <p class="gd-menu-lable">Visibility</p>
+            <hr class="gd-separator">
+            <ul class="gd-menu-list">
+              <li class="gd-list-item"><a>.gd-invisible</a></li>
+            </ul>
+            <p class="gd-menu-lable">Separator</p>
+            <hr class="gd-separator">
+            <ul class="gd-menu-list">
+              <li class="gd-list-item"><a>.gd-separator</a></li>
+            </ul>
+            <p class="gd-menu-lable">Sizing</p>
+            <hr class="gd-separator">
+            <ul class="gd-menu-list">
+              <li class="gd-list-item"><a>.gd-full-width</a></li>
+            </ul>
+            <p class="gd-menu-lable">Specing</p>
+            <hr class="gd-separator">
+            <ul class="gd-menu-list">
+              <li class="gd-list-item"><a>.gd-no-padding</a></li>
+              <li class="gd-list-item"><a>.gd-no-margin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
+
+<style>
+  .demo-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .demo-body {
+    display: flex;
+    margin-top: 3.75rem; 
+  }
+  .demo-sidebar {
+    float: left;
+    height: calc(100vh - 3.75rem);
+    min-width: 16rem;
+    overflow: auto;
+    position: relative;
+  }
+  .demo-content {
+    height: calc(100vh - 3.75rem);
+  }
+  .demo-color-chip {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin: 0 3px;
+    border: 1px solid #EFEFEF;
+  }
+  .demo-depth-chip {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    border: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .demo-color-text {
+    width: 100%; 
+  }
+  .demo-helper-text {
+    width: 100%;
+  }
+  .language-markup {
+    margin: 3rem 0 !important;
+    width: 100%;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+</style>

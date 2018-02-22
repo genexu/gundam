@@ -25,5 +25,8 @@
     "nodemon": "^1.14.3",
     "normalize.css": "^8.0.0",
     "sass-lint": "^1.12.1"
+  },
+  "dependencies": {
+    "prismjs": "^1.11.0"
   }
 }
