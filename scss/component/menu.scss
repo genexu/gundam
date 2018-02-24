@@ -11,8 +11,10 @@
 
 .#{$prefix}-list-item {
   a {
+    color: initial;
     display: flex;
     padding: .5rem;
+    text-decoration: none;
 
     &:hover {
       background-color: map-get($colors, 'default');

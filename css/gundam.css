@@ -848,8 +848,10 @@ template {
 }
 
 .gd-list-item a {
+  color: initial;
   display: flex;
   padding: .5rem;
+  text-decoration: none;
 }
 
 .gd-list-item a:hover {
