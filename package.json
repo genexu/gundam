@@ -1,7 +1,7 @@
 {
   "name": "gundam.css",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
+  "description": "pure and lightweight css framework",
   "main": "index.js",
   "scripts": {
     "build-all": "npm run build-normal && npm run build-minify",
