@@ -5,7 +5,7 @@ https://genexu.github.io/gundam/
 
 ## Installation
 ### NPM
-``` bash
+```bash
 ~$ npm install --save gundam.css
 ```
 ### Yarn
@@ -22,7 +22,7 @@ https://genexu.github.io/gundam/
 ```
 
 ## Development
-``` bash
+```bash
 # Auto watch scss file update and re-build css and minify file
 ~$ npm run watch
 
